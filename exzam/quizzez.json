@@ -1,0 +1,95 @@
+{
+    "queizzers1": [
+        { 
+        "id":1,
+        "name":"математика",
+        "question":[
+            {
+                "name_quest": "How many 4*1",
+                "answers": [
+                    {"val": "2", "is_true": true},
+                    {"val": "3", "is_true": false},
+                    {"val": "23", "is_true": false},
+                    {"val": "4", "is_true": false}
+                    
+                ]
+            }, {
+                "name_quest": "How many 4*5",
+                "answers": [
+                    {"val": "20", "is_true": true},
+                    {"val": "3", "is_true": false},
+                    {"val": "23", "is_true": false},
+                    {"val": "4", "is_true": false}
+                    
+                ]
+            },  {
+                "name_quest": "How many 2-1",
+                "answers": [
+                    {"val": "1", "is_true": true},
+                    {"val": "3", "is_true": false},
+                    {"val": "23", "is_true": false},
+                    {"val": "4", "is_true": false}
+                    
+                ]
+            },  {
+                "name_quest": "How many 5+5",
+                "answers": [
+                    {"val": "2", "is_true": false},
+                    {"val": "3", "is_true": false},
+                    {"val": "23", "is_true": false},
+                    {"val": "10", "is_true": true}
+                    
+                ]
+            }
+
+        ]
+    }
+
+
+
+    
+    ],
+    "queizzers2":[
+        { 
+            "id":2,
+            "name":"English",
+            "question":[
+                {
+                    "name_quest": "how is the word Привет translated?",
+                    "answers": [
+                        {"val": "felo", "is_true": false},
+                        {"val": "gelo", "is_true": false},
+                        {"val": "hello", "is_true": true},
+                        {"val": "hi", "is_true": false}
+                        
+                    ]
+    
+                }
+
+            ]
+    
+    
+        }
+    ],
+    "queizzers3":[
+        { 
+            "id":2,
+            "name":"Deutsch",
+            "question":[
+                {
+                    "name_quest": "how is the word Привет translated?",
+                    "answers": [
+                        {"val": "Hallo", "is_true": false},
+                        {"val": "choose", "is_true": true},
+                        {"val": "Enschuldigung", "is_true": false},
+                        {"val": "Bie", "is_true": false}
+                        
+                    ]
+    
+                }
+            ]
+    
+    
+        }
+    ]
+   }
